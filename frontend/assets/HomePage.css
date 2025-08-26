@@ -1,0 +1,38 @@
+css_code = """
+.homepage {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.match-list {
+  list-style: none;
+  padding: 0;
+}
+
+.match-item {
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.match-time {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.error {
+  color: red;
+}
+"""
+
+with open("HomePage.jsx", "w", encoding="utf-8") as f:
+    f.write(home_page_code)
+
+with open("HomePage.css", "w", encoding="utf-8") as f:
+    f.write(css_code)
+
